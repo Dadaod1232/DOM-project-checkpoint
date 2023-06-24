@@ -1,0 +1,172 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+/* this is styling the nav bar called group*/
+ .group {
+    display: flex;
+    width: 1200px;
+    background:#f8ab04;
+    color:rgb(223, 213, 213);
+  }
+
+/* this is for the unorder list styling called group ul */
+  .group ul{
+    display: flex;
+    margin-left: 400px;
+    list-style: none;
+  }
+
+/* this is the list styling called group ul li  */
+  .group ul li{
+    padding: 20px;
+    margin-left: 60px;
+  }
+  
+/* this is the styling for h2 inside the nav bar */
+.group h2{
+  position: relative;
+  top: 15px;
+} 
+
+/* this is the styling for the cards, that is the cart */
+.cart-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+  margin-left: 80px;
+  margin-top: 50px;
+}   
+
+/* this is the styling for the individal card, that is the cart */
+.cart{
+  background-color: #eaeaea;
+  padding: 10px;
+  width: 250px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+   /* this is the styling for the individual image in the cart */
+  .cart img {
+    width: 250px;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  /* this is the styling for the individual cart that is carrying the H3TAG */
+  .cart h3 {
+    margin-top: 10px;
+  }
+  
+  /* this is the styling for each PTAG for the cart */
+  .cart p {
+    color: palevioletred;
+    font-weight: bold;
+  }
+  
+  /* this is the styling for the button on each cart */
+  .cart button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 2px solid red;
+  }
+
+  /* this general stand for the body colour, which is brown */
+.general{
+  background:rgb(229, 203, 167);
+}
+
+/* this is an additional css styling to be able to display another cart when you click on "add to cart" */
+
+/* Container for the cart items */
+.cart-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+  margin-left: 80px;
+  margin-top: 50px;
+  
+}
+
+/* Individual cart item */
+.cart-item {
+  background-color: #eaeaea;
+  padding: 10px;
+  width: 250px;
+  border-radius: 30px;
+}
+
+/* Item image */
+.cart-item img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+/* Item details */
+.item-details {
+  text-align: center;
+}
+
+/* Item title */
+.item-details h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+/* Item price */
+.item-details p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Quantity buttons */
+.quantity-btn {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #e6e6e6;
+  border: none;
+  border-radius: 3px;
+  margin: 0 5px;
+}
+
+/* Delete button */
+.delete-btn {
+  display: block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #e6e6e6;
+  border: none;
+  border-radius: 3px;
+}
+
+/* Like button */
+.like-btn {
+  display: block;
+  margin-top: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #e6e6e6;
+  border: none;
+  border-radius: 3px;
+}
+
+/* Total price */
+.total-price {
+  text-align: right;
+  font-size: 18px;
+  margin-top: 20px;
+}
